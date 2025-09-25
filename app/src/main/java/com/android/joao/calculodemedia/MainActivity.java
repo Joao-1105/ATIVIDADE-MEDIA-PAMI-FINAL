@@ -54,14 +54,14 @@ public class MainActivity extends AppCompatActivity {
 
         if(media > 7) {
             if (faltas < 20) {
-                resultado.setTextColor(Color.parseColor("#437845"));
+                resultado.setTextColor(Color.parseColor("#FFFFFF"));
                 resultado.setText("Olá " + nomes + ", você foi aprovado com média: " + media);
             } else {
-                resultado.setTextColor(Color.parseColor("#F44336"));
+                resultado.setTextColor(Color.parseColor("#FFFFFF"));
                 resultado.setText("Olá " + nomes + ", Você foi reprovado por excesso de faltas " + faltas);
             }
         }else {
-            resultado.setTextColor(Color.parseColor("#F44336"));
+            resultado.setTextColor(Color.parseColor("#FFFFFF"));
             resultado.setText("Olá " + nomes + ", Você foi retido com média: " + media);
         }
     }
